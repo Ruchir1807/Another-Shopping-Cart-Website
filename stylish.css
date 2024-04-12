@@ -1,0 +1,596 @@
+.logo{
+    position: relative;
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif";
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: cadetblue;
+  padding-top: 4px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+  padding-top: 11px;
+}
+
+body {
+    height:100%;
+  width: 100%;
+  margin:0;
+  overflow-x: hidden;
+  
+}
+
+.cart{
+    position: relative;
+    height:20px;
+    width:20px;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: rgb(195, 195, 195);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    top:0;
+    left:0;
+    position: sticky;
+    z-index:999;
+    
+}
+#navbar{
+    position:absolute;
+    top: 10px;
+    right:40px;
+    text-align:right;    
+    align-items:end;
+    justify-content:end;
+    display: flex;
+    z-index:1000;
+    background-color: rgb(195, 195, 195);
+    
+}
+#navbar li{
+    list-style: none;
+    padding:20px;
+    position: relative;
+    background-color: rgb(195, 195, 195);
+
+
+}
+#navbar li a{
+    text-decoration: none;
+    color:#222;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(195, 195, 195);
+}
+#navbar li a:hover{
+    color: cadetblue;
+}
+#navbar li a.active{
+    color: cadetblue;
+}
+
+
+.main{
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgray;
+    max-width:100%;
+    
+}
+.model{
+    text-align: right;
+    padding-top:30px;
+    padding-right: 30px;
+    background-color: lightgray;
+    
+}
+.modelimage{
+    position:relative;
+    border-radius: 50px;
+    width: 530px;
+    top:-5px;
+}
+.modelimage2{
+    position: relative;
+    top:-320px;
+    bottom:360px;
+    border-radius: 50px;
+}
+.shopnow{
+    background: 60px;
+    background-color: beige;
+    border:0;
+    color:cadetblue;
+    font-weight: 700;
+    position: relative;
+    height: 40px;
+    width: 200px;
+    top:25px;
+    border-radius: 50px;
+}
+.shopnow:hover{
+    cursor: pointer;
+
+}
+
+.fe-box {  
+    display: flex;
+    padding:25px 15px;
+    padding-top: -10000000px;
+    position:relative;
+    height:200px;
+    width: 200px;
+    left:275px;
+    top: 100px;
+
+}
+.fulltime{
+    position:relative;
+    right:105px;
+    border-radius:50px;
+    box-shadow: 10px 10px 54px 5px rgba(70, 62, 221, 0.1);
+}
+.fulltime:hover{
+    box-shadow: 10px 10px 54px 5px rgba(70, 62, 221, 0.1);
+    z-index:1;
+}
+
+.fast{
+    position:relative;
+    right:80px;
+    border-radius:50px;
+    box-shadow: 10px 10px 54px 5px rgba(70, 62, 221, 0.1);
+}
+.fast:hover{
+    box-shadow: 10px 10px 54px 5px rgba(70, 62, 221, 0.1);
+    z-index:1;
+}
+.free{
+    position:relative;
+    right: 125px;
+    width:200px;
+    border-radius:50px;
+    box-shadow: 10px 10px 54px 5px rgba(70, 62, 221, 0.1);
+}
+.free:hover{
+    z-index:1;
+}
+.savemoney{
+    position:relative;
+    right:110px;
+    width:200px;
+    border-radius:50px;
+    box-shadow: 10px 10px 54px 5px rgba(70, 62, 221, 0.1);
+}
+.savemoney:hover{
+    
+    z-index:1;
+}
+.caption1{
+    position:relative;
+    top:150px;
+    right:280px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    white-space: nowrap;
+    color: cadetblue;
+    height: 100px;
+}
+     
+
+.caption2{
+    position:relative;
+    top:150px;
+    right:277px;
+    font-family: 'Times New Roman', Times, serif;
+   
+    white-space: nowrap;
+    color: cadetblue;
+    height: 100px;
+    
+}
+.caption3{
+    position:relative;
+    top:150px;
+    right:320px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    white-space: nowrap;
+    color: cadetblue;
+    height: 100px;
+}
+.caption4{
+    position:relative;
+    top:150px;
+    right:320px;
+    font-family: 'Times New Roman', Times, serif;
+  
+    white-space: nowrap;
+    color: cadetblue;
+    height: 100px;
+}
+.FP{
+    position:relative;
+    top:400px;
+    left:650px;
+}
+.MDC{
+    position:relative;
+    left:60px;
+
+}
+.fp1{
+    position: relative;
+    height:420px;
+    width:300px;
+    
+}
+.prod1{
+    position: relative;
+    right:500px;
+    top:40px;
+    width:270px;
+    height:580px;
+}
+.subprod1{
+    
+    width:320px;
+    height:150px;
+
+}
+
+.fp1text{
+    position: relative;
+    bottom:150px;
+}
+.price1{
+    position: relative;
+    bottom:160px;
+    color:cadetblue;
+}
+.carts.cart1{
+    position: relative;
+    height:20px;
+    width:20px;
+    bottom:225px;
+    right:135px;
+}
+
+.img1{
+    position: relative;
+    bottom:200px;
+    right:5px;
+}
+.prod2{
+    position:relative;
+    width:300px;
+    height:570px;
+    bottom:540px;
+    right:-10px;
+}
+
+.fp2{
+    position: relative;
+    height:420px;
+    width:300px;
+}
+.price2{
+    position: relative;
+    bottom:10px;
+    color:cadetblue;
+}
+.img2{
+    position: relative;
+    bottom:45px;
+    right:5px;
+}
+.carts.cart2{
+    position: relative;
+    height:20px;
+    width:20px;
+    bottom:70px;
+    right:135px;
+}
+.subprod2{
+    
+    width:300px;
+    height:150px;
+
+}
+.prod3{
+    position: relative;
+    bottom:1110px;
+    left:500px;
+    width:300px;
+    height:570px;
+}
+
+.fp3{
+    position: relative;
+    height:420px;
+    width:320px;
+}
+.carts.cart3{
+    position: relative;
+    height:20px;
+    width:20px;
+    bottom:70px;
+    right:135px;
+}
+.img3{
+    position: relative;
+    bottom:45px;
+    right:5px;
+}
+.price3{
+    position: relative;
+    bottom:10px;
+    color:cadetblue;
+}
+.subprod3{
+   
+    width:320px;
+    height:150px;
+}
+.prod4{
+    position: relative;
+    bottom:1000px;
+    left:270px;
+    width:300px;
+    height:570px;
+}
+
+.fp4{
+    position: relative;
+    height:460px;
+    width:320px;
+}
+.carts.cart4{
+    position: relative;
+    height:20px;
+    width:20px;
+    bottom:70px;
+    right:135px;
+    
+}
+.subprod4{
+    
+    width:320px;
+    height:150px;
+}
+.price4{
+    position: relative;
+    bottom:10px;
+    color:cadetblue;
+}
+.img4{
+    position: relative;
+    bottom:45px;
+    right:5px;
+}
+.prod5{
+    position: relative;
+    bottom:1565px;
+    left:-270px;
+    width:300px;
+    height:570px;
+}
+
+.fp5{
+    position: relative;
+    height:460px;
+    width:320px;
+}
+.carts.cart5{
+    position: relative;
+    height:20px;
+    width:20px;
+    bottom:70px;
+    right:135px;
+}
+.subprod5{
+    
+    width:320px;
+    height:150px;
+}
+.price5{
+    position: relative;
+    bottom:10px;
+    color:cadetblue;
+}
+.img5{
+    position: relative;
+    bottom:45px;
+    right:5px;
+    
+}
+.banner{
+    position: relative;
+    bottom:1200px;
+    right:650px;
+    width:140%;
+    height:65vh;
+    background-image: url(pinkwall.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.subbanner{
+    position: relative;
+    top:230px;
+    left:700px;
+}
+.bannerbutton{
+    position: relative;
+    left:95px;
+    top:1px;
+    background-color: transparent;
+    color:rgb(76, 76, 77);
+    background-size: 50px ;
+    font-size: 18px;
+    font-weight:600;
+   
+    
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    transition:0.2s;
+
+}
+.bannerheader{
+    color:antiquewhite;
+    font-size: large;
+}
+.bannerh1{
+    color:antiquewhite;
+    position: relative; 
+    bottom:100px;
+    right:200px;
+}
+.bannerh3{
+    color:antiquewhite;
+    position: relative; 
+    right:25px;
+}
+span{
+    color:#3f3e3e
+}
+
+.bannerbutton:hover{
+    background-color: antiquewhite;
+}
+
+.abts{
+    margin-top: -400px;
+    background-image:url(abtsback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+   
+}
+.headerabts{
+    margin-left: 720px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom:50px;
+    color:darkslategrey;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+    .paraabts{
+    position: relative;
+    bottom:50px; 
+    font-size:20px;
+    left:150px;
+    color:darkslategrey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.eq{
+    position: relative;
+    left:550px;
+    padding-bottom: 20px;
+    color:darkslategrey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.media1{
+    height:30px;
+    width:30px;
+    
+}
+.media2{
+    height:30px;
+    width:30px;
+}
+.media3{
+    height:30px;
+    width:30px;
+}
+.media4{
+    height:30px;
+    width:30px;
+}
+.media{
+    position: relative;
+    left:-500px;
+    top:20px;
+}
+.social{
+    position: relative;
+    left:-500px;
+    top:10px;
+    color:beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.app{
+    position: relative;
+    left:1300px;
+    bottom:50px;
+}
+.app1{
+    height:30px;
+    width:30px;
+}
+.app2{
+    height:30px;
+    width:30px;
+}
+.App{
+    position: relative;
+    left:780px; 
+    color:beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nextbar{
+    position: relative;
+    right:20px;
+}       
+.black{
+    position: relative;
+    bottom:1000px;
+    right:500px;
+    padding-right: 100px;
+    
+}
+.cyber{
+    position: relative;
+    bottom:1000px;
+    right:500px;
+}
+.online{
+    height:500px;
+    width:500px;
+    padding-top:-100px;
+    position: relative;
+    top:50px;
+    left:50px;
+
+}
